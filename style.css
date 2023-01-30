@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: #eeeeee;
+	color: #222831;
+	font-family: "Sofia", cursive;
+}
+
+.container {
+	width: 90%;
+	max-width: 1000px;
+	min-height: 500px;
+	background-color: #222831;
+	box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+	padding: 4rem;
+	position: relative;
+}
+
+#quote-title {
+	font-size: 4rem;
+	color: #eeeeee;
+	margin-bottom: 5rem;
+}
+
+#quote-author {
+	font-size: 3rem;
+	text-align: end;
+	position: absolute;
+	bottom: 15rem;
+	right: 4rem;
+	color: #00adb5;
+}
+
+#change-quote-btn {
+	outline: none;
+	background: transparent;
+	border: none;
+	padding: 1rem;
+	border-radius: 1rem;
+	cursor: pointer;
+	background-color: #eeeeee;
+	position: absolute;
+	bottom: 4rem;
+	left: 4rem;
+}
